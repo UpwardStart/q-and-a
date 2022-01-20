@@ -3,9 +3,7 @@ import Container from '../src/components/layout/container'
 
 
 const BecomeATutor = () => (
-  <Container>
     <BecomeATutorDescription />
-  </Container>
 )
 
 export default BecomeATutor

@@ -1,5 +1,8 @@
-const Container = ( children ) => (
-  <div className="container">
+
+import clsx from "clsx"
+
+const Container = ({ children, color }) => (
+  <div className={`container-${clsx(color)} container`}>
     {children}
   </div>
 )
